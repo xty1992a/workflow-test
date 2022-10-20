@@ -9,7 +9,6 @@ jobs:
       matrix:
         node-version: [18]
     steps:
-      - name: Prepare pnpm
       - uses: actions/checkout@v2
       - uses: pnpm/action-setup@v2.2.2
         with:
