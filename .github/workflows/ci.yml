@@ -27,11 +27,6 @@ jobs:
       - name: Build
         run: pnpm run build
 
-      - name: prepare token
-        env:
-          PUBLIC_TOKEN: ${{ secrets.PUBLIC_TOKEN }}
-        run: echo $PUBLIC_TOKEN
-
       - name: Publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
