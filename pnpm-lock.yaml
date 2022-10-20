@@ -7,6 +7,7 @@ specifiers:
   rollup: ^3.2.3
   rollup-plugin-typescript: ^1.0.1
   tslib: ^2.4.0
+  typescript: ^4.8.4
 
 dependencies:
   dayjs: 1.11.5
@@ -16,7 +17,8 @@ devDependencies:
   '@rollup/plugin-commonjs': 23.0.0_rollup@3.2.3
   '@rollup/plugin-node-resolve': 15.0.0_rollup@3.2.3
   rollup: 3.2.3
-  rollup-plugin-typescript: 1.0.1_tslib@2.4.0
+  rollup-plugin-typescript: 1.0.1_hjjpfygmunulepk75ead4kovya
+  typescript: 4.8.4
 
 packages:
 
@@ -214,7 +216,7 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
-  /rollup-plugin-typescript/1.0.1_tslib@2.4.0:
+  /rollup-plugin-typescript/1.0.1_hjjpfygmunulepk75ead4kovya:
     resolution: {integrity: sha512-rwJDNn9jv/NsKZuyBb/h0jsclP4CJ58qbvZt2Q9zDIGILF2LtdtvCqMOL+Gq9IVq5MTrTlHZNrn8h7VjQgd8tw==}
     deprecated: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-typescript.
     peerDependencies:
@@ -224,6 +226,7 @@ packages:
       resolve: 1.22.1
       rollup-pluginutils: 2.8.2
       tslib: 2.4.0
+      typescript: 4.8.4
     dev: true
 
   /rollup-pluginutils/2.8.2:
@@ -251,6 +254,12 @@ packages:
 
   /tslib/2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
+
+  /typescript/4.8.4:
+    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
 
   /wrappy/1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
